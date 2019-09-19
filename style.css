@@ -22,3 +22,11 @@ h1{
     bottom: 50px;
     left: 100px
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-rows: minmax(100px, 1fr);
+    grid-gap: 1em;
+
+}
